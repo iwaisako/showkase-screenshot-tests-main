@@ -12,7 +12,7 @@ import androidx.compose.ui.tooling.preview.Preview
 fun FeatureGreeting() {
     Column {
         Text(
-            text = "Hello from Showkase-Paparazzi!",
+            text = "Hello from Showkase-Paparazzi!!",
             color = MaterialTheme.colors.onSurface,
             modifier = Modifier.background(MaterialTheme.colors.surface)
         )
