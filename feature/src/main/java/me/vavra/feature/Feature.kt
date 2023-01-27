@@ -21,6 +21,11 @@ fun FeatureGreeting() {
             color = MaterialTheme.colors.onSurface,
             modifier = Modifier.background(MaterialTheme.colors.surface)
         )
+        Text(
+            text = "test!!!!",
+            color = MaterialTheme.colors.onSurface,
+            modifier = Modifier.background(MaterialTheme.colors.surface)
+        )
     }
 }
 
