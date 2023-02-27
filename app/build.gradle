@@ -5,12 +5,12 @@ plugins {
 }
 
 android {
-    compileSdk 31
+    compileSdk 33
 
     defaultConfig {
         applicationId "me.vavra.showkase"
         minSdk 26
-        targetSdk 30
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -32,14 +32,12 @@ android {
     }
     kotlinOptions {
         jvmTarget = '11'
-        useIR = true
     }
     buildFeatures {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion compose_version
-        kotlinCompilerVersion '1.5.30'
+        kotlinCompilerExtensionVersion compose_compiler_version
     }
     packagingOptions {
         resources {
