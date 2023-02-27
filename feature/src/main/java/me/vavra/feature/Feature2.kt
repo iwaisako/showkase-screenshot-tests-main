@@ -22,7 +22,7 @@ fun FeatureGreeting2() {
             modifier = Modifier.background(MaterialTheme.colors.surface)
         )
         Text(
-            text = "test!!!!",
+            text = "test!!!!test!!!!",
             color = MaterialTheme.colors.onSurface,
             modifier = Modifier.background(MaterialTheme.colors.surface)
         )
